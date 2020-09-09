@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3826B3332505BEB10095722F /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826B3322505BEB10095722F /* TimerModel.swift */; };
 		38C772CA24E0ACCA0054AE6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772C924E0ACCA0054AE6A /* AppDelegate.swift */; };
 		38C772CC24E0ACCA0054AE6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772CB24E0ACCA0054AE6A /* SceneDelegate.swift */; };
 		38C772CE24E0ACCA0054AE6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772CD24E0ACCA0054AE6A /* ContentView.swift */; };
 		38C772D024E0ACCE0054AE6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C772CF24E0ACCE0054AE6A /* Assets.xcassets */; };
 		38C772D324E0ACCE0054AE6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C772D224E0ACCE0054AE6A /* Preview Assets.xcassets */; };
 		38C772D624E0ACCE0054AE6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C772D424E0ACCE0054AE6A /* LaunchScreen.storyboard */; };
+		38D9896E25078EB6004736F4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9896D25078EB6004736F4 /* SettingsView.swift */; };
+		38D989BB2509148D004736F4 /* countdown-remain-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B52509148D004736F4 /* countdown-remain-2.mp3 */; };
+		38D989BC2509148D004736F4 /* countdown-remain-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B62509148D004736F4 /* countdown-remain-3.mp3 */; };
+		38D989BD2509148D004736F4 /* countdown-remain-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B72509148D004736F4 /* countdown-remain-1.mp3 */; };
+		38D989BE2509148D004736F4 /* countdown-remain-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B82509148D004736F4 /* countdown-remain-4.mp3 */; };
+		38D989BF2509148D004736F4 /* countdown-remain-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B92509148D004736F4 /* countdown-remain-5.mp3 */; };
+		38D989C02509148D004736F4 /* start-countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989BA2509148D004736F4 /* start-countdown.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3826B3322505BEB10095722F /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
 		38C772C624E0ACCA0054AE6A /* GoClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C772C924E0ACCA0054AE6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38C772CB24E0ACCA0054AE6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		38C772D224E0ACCE0054AE6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38C772D524E0ACCE0054AE6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38C772D724E0ACCE0054AE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D9896D25078EB6004736F4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		38D989B52509148D004736F4 /* countdown-remain-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-2.mp3"; sourceTree = "<group>"; };
+		38D989B62509148D004736F4 /* countdown-remain-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-3.mp3"; sourceTree = "<group>"; };
+		38D989B72509148D004736F4 /* countdown-remain-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-1.mp3"; sourceTree = "<group>"; };
+		38D989B82509148D004736F4 /* countdown-remain-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-4.mp3"; sourceTree = "<group>"; };
+		38D989B92509148D004736F4 /* countdown-remain-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-5.mp3"; sourceTree = "<group>"; };
+		38D989BA2509148D004736F4 /* start-countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "start-countdown.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +72,12 @@
 		38C772C824E0ACCA0054AE6A /* GoClock */ = {
 			isa = PBXGroup;
 			children = (
+				38D989B42509148D004736F4 /* Audios */,
 				38C772C924E0ACCA0054AE6A /* AppDelegate.swift */,
 				38C772CB24E0ACCA0054AE6A /* SceneDelegate.swift */,
 				38C772CD24E0ACCA0054AE6A /* ContentView.swift */,
+				3826B3322505BEB10095722F /* TimerModel.swift */,
+				38D9896D25078EB6004736F4 /* SettingsView.swift */,
 				38C772CF24E0ACCE0054AE6A /* Assets.xcassets */,
 				38C772D424E0ACCE0054AE6A /* LaunchScreen.storyboard */,
 				38C772D724E0ACCE0054AE6A /* Info.plist */,
@@ -73,6 +92,19 @@
 				38C772D224E0ACCE0054AE6A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38D989B42509148D004736F4 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				38D989B52509148D004736F4 /* countdown-remain-2.mp3 */,
+				38D989B62509148D004736F4 /* countdown-remain-3.mp3 */,
+				38D989B72509148D004736F4 /* countdown-remain-1.mp3 */,
+				38D989B82509148D004736F4 /* countdown-remain-4.mp3 */,
+				38D989B92509148D004736F4 /* countdown-remain-5.mp3 */,
+				38D989BA2509148D004736F4 /* start-countdown.mp3 */,
+			);
+			path = Audios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +165,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D989BF2509148D004736F4 /* countdown-remain-5.mp3 in Resources */,
+				38D989BD2509148D004736F4 /* countdown-remain-1.mp3 in Resources */,
 				38C772D624E0ACCE0054AE6A /* LaunchScreen.storyboard in Resources */,
+				38D989BB2509148D004736F4 /* countdown-remain-2.mp3 in Resources */,
+				38D989C02509148D004736F4 /* start-countdown.mp3 in Resources */,
 				38C772D324E0ACCE0054AE6A /* Preview Assets.xcassets in Resources */,
 				38C772D024E0ACCE0054AE6A /* Assets.xcassets in Resources */,
+				38D989BE2509148D004736F4 /* countdown-remain-4.mp3 in Resources */,
+				38D989BC2509148D004736F4 /* countdown-remain-3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D9896E25078EB6004736F4 /* SettingsView.swift in Sources */,
 				38C772CA24E0ACCA0054AE6A /* AppDelegate.swift in Sources */,
+				3826B3332505BEB10095722F /* TimerModel.swift in Sources */,
 				38C772CC24E0ACCA0054AE6A /* SceneDelegate.swift in Sources */,
 				38C772CE24E0ACCA0054AE6A /* ContentView.swift in Sources */,
 			);
