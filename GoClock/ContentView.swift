@@ -79,6 +79,9 @@ struct ContentView: View {
             }
         }
         .statusBar(hidden: true)
+        .sheet(isPresented: $isPresented) {
+            SettingsView(freeTime: self.model.timerRule.freeTime, countDownTime: self.model.timerRule.countDownTime, countDownNum: self.model.timerRule.countDownNum).environmentObject(self.model)
+        }
     }
 }
 

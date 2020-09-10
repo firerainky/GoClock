@@ -16,27 +16,47 @@ let timeEnd2 = Date(timeIntervalSince1970: 360)
 struct SettingsView: View {
     @Environment(\.presentationMode) var mode
     @EnvironmentObject var model: TimerModel
-    var freeTime: String
-    let countDownTime: TimeInterval
-    let countDownNum: Int
+    
+    @State var freeTimeStr: String = ""
+    @State var countDownTimeStr: String = ""
+    @State var countDownNumStr: String = ""
     
     init(freeTime: TimeInterval, countDownTime: TimeInterval, countDownNum: Int) {
-        
-        self.freeTime = String(freeTime)
-        self.countDownTime = countDownTime
-        self.countDownNum = countDownNum
+        freeTimeStr = String(Int(freeTime))
+        countDownTimeStr = String(Int(countDownTime))
+        countDownNumStr = String(countDownNum)
     }
     
     var body: some View {
-        VStack {
+        Form {
             Button(action: {
+                let freeTime = Int(self.freeTimeStr)
+                let countDownTime = Int(self.countDownTimeStr)
+                let countDownNum = Int(self.countDownNumStr)
+                self.model.setNewRule(freeTime: freeTime!, countDownTime: countDownTime!, countDownNum: countDownNum!)
                 self.mode.wrappedValue.dismiss()
             }) {
                 Text("完成")
             }
-//            TextField("时间", text: $freeTime)
+            HStack {
+                Text("时间")
+                Spacer()
+                TextField("时间", text: $freeTimeStr)
+                    .keyboardType(.numberPad)
+            }
+            HStack {
+                Text("读秒")
+                Spacer()
+                TextField("读秒", text: $countDownTimeStr)
+                    .keyboardType(.numberPad)
+            }
+            HStack {
+                Text("次数")
+                Spacer()
+                TextField("次数", text: $countDownNumStr)
+                    .keyboardType(.numberPad)
+            }
         }
-        
     }
 }
 

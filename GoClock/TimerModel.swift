@@ -71,7 +71,7 @@ class TimerModel: ObservableObject {
 //    @State var guestMove: Int = 0
     
     // 读秒规则（读秒时间，保留次数）
-    private var timerRule: TimerRule
+    private(set) var timerRule: TimerRule
     
     init() {
         self.timerRule = TimerRule(freeTime: 5, countDownTime: 5, countDownNum: 2)
@@ -184,6 +184,11 @@ class TimerModel: ObservableObject {
         hostTurn = false
         hostPhase = (timerRule.countDownTime, timerRule.countDownNum)
         guestPhase = (timerRule.countDownTime, timerRule.countDownNum)
+    }
+    
+    func setNewRule(freeTime: Int, countDownTime: Int, countDownNum: Int) {
+        timerRule = TimerRule(freeTime: TimeInterval(freeTime), countDownTime: TimeInterval(countDownTime), countDownNum: countDownNum)
+        self.reset()
     }
     
     private func countToZero(hostSide: Bool) {
