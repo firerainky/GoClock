@@ -3,11 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3826B3332505BEB10095722F /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826B3322505BEB10095722F /* TimerModel.swift */; };
+		3829211A250A117600B1878D /* seven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292110250A117600B1878D /* seven.mp3 */; };
+		3829211B250A117600B1878D /* eight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292111250A117600B1878D /* eight.mp3 */; };
+		3829211C250A117600B1878D /* one.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292112250A117600B1878D /* one.mp3 */; };
+		3829211D250A117600B1878D /* five.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292113250A117600B1878D /* five.mp3 */; };
+		3829211E250A117600B1878D /* two.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292114250A117600B1878D /* two.mp3 */; };
+		3829211F250A117600B1878D /* six.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292115250A117600B1878D /* six.mp3 */; };
+		38292120250A117600B1878D /* four.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292116250A117600B1878D /* four.mp3 */; };
+		38292121250A117600B1878D /* nine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292117250A117600B1878D /* nine.mp3 */; };
+		38292122250A117600B1878D /* ten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292118250A117600B1878D /* ten.mp3 */; };
+		38292123250A117600B1878D /* three.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292119250A117600B1878D /* three.mp3 */; };
 		38C772CA24E0ACCA0054AE6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772C924E0ACCA0054AE6A /* AppDelegate.swift */; };
 		38C772CC24E0ACCA0054AE6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772CB24E0ACCA0054AE6A /* SceneDelegate.swift */; };
 		38C772CE24E0ACCA0054AE6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772CD24E0ACCA0054AE6A /* ContentView.swift */; };
@@ -21,10 +31,21 @@
 		38D989BE2509148D004736F4 /* countdown-remain-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B82509148D004736F4 /* countdown-remain-4.mp3 */; };
 		38D989BF2509148D004736F4 /* countdown-remain-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B92509148D004736F4 /* countdown-remain-5.mp3 */; };
 		38D989C02509148D004736F4 /* start-countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989BA2509148D004736F4 /* start-countdown.mp3 */; };
+		D22A62548B630D2F7589B30F /* Pods_GoClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76823443A469D43BBB71BA8A /* Pods_GoClock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3826B3322505BEB10095722F /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		38292110250A117600B1878D /* seven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seven.mp3; sourceTree = "<group>"; };
+		38292111250A117600B1878D /* eight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eight.mp3; sourceTree = "<group>"; };
+		38292112250A117600B1878D /* one.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = one.mp3; sourceTree = "<group>"; };
+		38292113250A117600B1878D /* five.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = five.mp3; sourceTree = "<group>"; };
+		38292114250A117600B1878D /* two.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = two.mp3; sourceTree = "<group>"; };
+		38292115250A117600B1878D /* six.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = six.mp3; sourceTree = "<group>"; };
+		38292116250A117600B1878D /* four.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = four.mp3; sourceTree = "<group>"; };
+		38292117250A117600B1878D /* nine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nine.mp3; sourceTree = "<group>"; };
+		38292118250A117600B1878D /* ten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ten.mp3; sourceTree = "<group>"; };
+		38292119250A117600B1878D /* three.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = three.mp3; sourceTree = "<group>"; };
 		38C772C624E0ACCA0054AE6A /* GoClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C772C924E0ACCA0054AE6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38C772CB24E0ACCA0054AE6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +61,9 @@
 		38D989B82509148D004736F4 /* countdown-remain-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-4.mp3"; sourceTree = "<group>"; };
 		38D989B92509148D004736F4 /* countdown-remain-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-5.mp3"; sourceTree = "<group>"; };
 		38D989BA2509148D004736F4 /* start-countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "start-countdown.mp3"; sourceTree = "<group>"; };
+		76823443A469D43BBB71BA8A /* Pods_GoClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		920F4592A126CD40B97AFCB0 /* Pods-GoClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoClock.release.xcconfig"; path = "Target Support Files/Pods-GoClock/Pods-GoClock.release.xcconfig"; sourceTree = "<group>"; };
+		FD4B2C8A072F4F5928E9B8CB /* Pods-GoClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoClock.debug.xcconfig"; path = "Target Support Files/Pods-GoClock/Pods-GoClock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22A62548B630D2F7589B30F /* Pods_GoClock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +83,8 @@
 			children = (
 				38C772C824E0ACCA0054AE6A /* GoClock */,
 				38C772C724E0ACCA0054AE6A /* Products */,
+				5B3325AAA4CEA7FDD6950635 /* Pods */,
+				561D5A858622CD742F5A88B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +124,16 @@
 		38D989B42509148D004736F4 /* Audios */ = {
 			isa = PBXGroup;
 			children = (
+				38292111250A117600B1878D /* eight.mp3 */,
+				38292113250A117600B1878D /* five.mp3 */,
+				38292116250A117600B1878D /* four.mp3 */,
+				38292117250A117600B1878D /* nine.mp3 */,
+				38292112250A117600B1878D /* one.mp3 */,
+				38292110250A117600B1878D /* seven.mp3 */,
+				38292115250A117600B1878D /* six.mp3 */,
+				38292118250A117600B1878D /* ten.mp3 */,
+				38292119250A117600B1878D /* three.mp3 */,
+				38292114250A117600B1878D /* two.mp3 */,
 				38D989B52509148D004736F4 /* countdown-remain-2.mp3 */,
 				38D989B62509148D004736F4 /* countdown-remain-3.mp3 */,
 				38D989B72509148D004736F4 /* countdown-remain-1.mp3 */,
@@ -107,6 +144,23 @@
 			path = Audios;
 			sourceTree = "<group>";
 		};
+		561D5A858622CD742F5A88B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76823443A469D43BBB71BA8A /* Pods_GoClock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B3325AAA4CEA7FDD6950635 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD4B2C8A072F4F5928E9B8CB /* Pods-GoClock.debug.xcconfig */,
+				920F4592A126CD40B97AFCB0 /* Pods-GoClock.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38C772DA24E0ACCE0054AE6A /* Build configuration list for PBXNativeTarget "GoClock" */;
 			buildPhases = (
+				B4D52F170F51870669E4AC82 /* [CP] Check Pods Manifest.lock */,
 				38C772C224E0ACCA0054AE6A /* Sources */,
 				38C772C324E0ACCA0054AE6A /* Frameworks */,
 				38C772C424E0ACCA0054AE6A /* Resources */,
+				640EAEF257D9EED4E38D6F0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,19 +221,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3829211D250A117600B1878D /* five.mp3 in Resources */,
 				38D989BF2509148D004736F4 /* countdown-remain-5.mp3 in Resources */,
+				38292120250A117600B1878D /* four.mp3 in Resources */,
+				38292123250A117600B1878D /* three.mp3 in Resources */,
+				38292121250A117600B1878D /* nine.mp3 in Resources */,
+				3829211B250A117600B1878D /* eight.mp3 in Resources */,
 				38D989BD2509148D004736F4 /* countdown-remain-1.mp3 in Resources */,
+				3829211C250A117600B1878D /* one.mp3 in Resources */,
 				38C772D624E0ACCE0054AE6A /* LaunchScreen.storyboard in Resources */,
+				3829211F250A117600B1878D /* six.mp3 in Resources */,
 				38D989BB2509148D004736F4 /* countdown-remain-2.mp3 in Resources */,
+				3829211A250A117600B1878D /* seven.mp3 in Resources */,
 				38D989C02509148D004736F4 /* start-countdown.mp3 in Resources */,
+				38292122250A117600B1878D /* ten.mp3 in Resources */,
 				38C772D324E0ACCE0054AE6A /* Preview Assets.xcassets in Resources */,
 				38C772D024E0ACCE0054AE6A /* Assets.xcassets in Resources */,
 				38D989BE2509148D004736F4 /* countdown-remain-4.mp3 in Resources */,
 				38D989BC2509148D004736F4 /* countdown-remain-3.mp3 in Resources */,
+				3829211E250A117600B1878D /* two.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		640EAEF257D9EED4E38D6F0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoClock/Pods-GoClock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoClock/Pods-GoClock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoClock/Pods-GoClock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D52F170F51870669E4AC82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoClock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38C772C224E0ACCA0054AE6A /* Sources */ = {
@@ -322,6 +430,7 @@
 		};
 		38C772DB24E0ACCE0054AE6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD4B2C8A072F4F5928E9B8CB /* Pods-GoClock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -342,6 +451,7 @@
 		};
 		38C772DC24E0ACCE0054AE6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920F4592A126CD40B97AFCB0 /* Pods-GoClock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
