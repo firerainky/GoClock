@@ -91,3 +91,6 @@ iOSInjectionProject/
 
 # Pods files
 /Pods
+
+# unrelevent file on macOS
+.DS_Store

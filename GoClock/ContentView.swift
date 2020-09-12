@@ -103,16 +103,6 @@ func timeStateView(timeState: TimeState, time: TimeInterval) -> some View {
             Text("点击开始计时").font(.system(size: 30))
         }
     }
-//    switch timeState {
-//    case .outOfTime:
-//        return Text("哈哈，你超时了").font(.system(size: 50))
-//    case .running:
-//        return Text(formatTime(time)).font(.system(size: 50))
-//    case .resumming:
-//        return Text(formatTime(time) + "\n点击继续计时").font(.system(size: 50))
-//    case .starting:
-//        return Text(formatTime(time) + "\n点击开始计时").font(.system(size: 50))
-//    }
 }
 
 struct TurnTimerView: View {

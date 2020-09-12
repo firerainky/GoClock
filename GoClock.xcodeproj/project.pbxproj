@@ -18,6 +18,9 @@
 		38292121250A117600B1878D /* nine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292117250A117600B1878D /* nine.mp3 */; };
 		38292122250A117600B1878D /* ten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292118250A117600B1878D /* ten.mp3 */; };
 		38292123250A117600B1878D /* three.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292119250A117600B1878D /* three.mp3 */; };
+		38292125250B7EFD00B1878D /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38292124250B7EFD00B1878D /* TimePickerView.swift */; };
+		38292127250BB48100B1878D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38292126250BB48100B1878D /* Helper.swift */; };
+		38292129250C591000B1878D /* DurationPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38292128250C591000B1878D /* DurationPicker.swift */; };
 		38C772CA24E0ACCA0054AE6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772C924E0ACCA0054AE6A /* AppDelegate.swift */; };
 		38C772CC24E0ACCA0054AE6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772CB24E0ACCA0054AE6A /* SceneDelegate.swift */; };
 		38C772CE24E0ACCA0054AE6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772CD24E0ACCA0054AE6A /* ContentView.swift */; };
@@ -46,6 +49,9 @@
 		38292117250A117600B1878D /* nine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nine.mp3; sourceTree = "<group>"; };
 		38292118250A117600B1878D /* ten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ten.mp3; sourceTree = "<group>"; };
 		38292119250A117600B1878D /* three.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = three.mp3; sourceTree = "<group>"; };
+		38292124250B7EFD00B1878D /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		38292126250BB48100B1878D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		38292128250C591000B1878D /* DurationPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationPicker.swift; sourceTree = "<group>"; };
 		38C772C624E0ACCA0054AE6A /* GoClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C772C924E0ACCA0054AE6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38C772CB24E0ACCA0054AE6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,15 +106,18 @@
 			isa = PBXGroup;
 			children = (
 				38D989B42509148D004736F4 /* Audios */,
+				38292126250BB48100B1878D /* Helper.swift */,
 				38C772C924E0ACCA0054AE6A /* AppDelegate.swift */,
 				38C772CB24E0ACCA0054AE6A /* SceneDelegate.swift */,
 				38C772CD24E0ACCA0054AE6A /* ContentView.swift */,
-				3826B3322505BEB10095722F /* TimerModel.swift */,
 				38D9896D25078EB6004736F4 /* SettingsView.swift */,
+				3826B3322505BEB10095722F /* TimerModel.swift */,
+				38292124250B7EFD00B1878D /* TimePickerView.swift */,
 				38C772CF24E0ACCE0054AE6A /* Assets.xcassets */,
 				38C772D424E0ACCE0054AE6A /* LaunchScreen.storyboard */,
 				38C772D724E0ACCE0054AE6A /* Info.plist */,
 				38C772D124E0ACCE0054AE6A /* Preview Content */,
+				38292128250C591000B1878D /* DurationPicker.swift */,
 			);
 			path = GoClock;
 			sourceTree = "<group>";
@@ -293,6 +302,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				38D9896E25078EB6004736F4 /* SettingsView.swift in Sources */,
+				38292127250BB48100B1878D /* Helper.swift in Sources */,
+				38292125250B7EFD00B1878D /* TimePickerView.swift in Sources */,
+				38292129250C591000B1878D /* DurationPicker.swift in Sources */,
 				38C772CA24E0ACCA0054AE6A /* AppDelegate.swift in Sources */,
 				3826B3332505BEB10095722F /* TimerModel.swift in Sources */,
 				38C772CC24E0ACCA0054AE6A /* SceneDelegate.swift in Sources */,

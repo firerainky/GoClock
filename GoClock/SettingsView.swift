@@ -28,7 +28,8 @@ struct SettingsView: View {
     }
     
     var body: some View {
-        Form {
+//        Form {
+        VStack {
             Button(action: {
                 let freeTime = Int(self.freeTimeStr)
                 let countDownTime = Int(self.countDownTimeStr)
@@ -44,6 +45,7 @@ struct SettingsView: View {
                 TextField("时间", text: $freeTimeStr)
                     .keyboardType(.numberPad)
             }
+            TimePickerView()
             HStack {
                 Text("读秒")
                 Spacer()
@@ -57,6 +59,7 @@ struct SettingsView: View {
                     .keyboardType(.numberPad)
             }
         }
+//        }
     }
 }
 
