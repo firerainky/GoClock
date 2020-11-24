@@ -45,7 +45,7 @@ struct SettingsView: View {
                 TextField("时间", text: $freeTimeStr)
                     .keyboardType(.numberPad)
             }
-            TimePickerView()
+//            TimePickerView()
             HStack {
                 Text("读秒")
                 Spacer()

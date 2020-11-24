@@ -1,0 +1,60 @@
+/* 
+  Localizable.strings
+  GoClock
+
+  Created by Zheng Kanyan on 2020/11/13.
+  Copyright © 2020 Zheng Kanyan. All rights reserved.
+*/
+
+"hours" = "小时";
+"minutes" = "分钟";
+"seconds" = "秒";
+
+"TAP TO START" = "点击开始计时";
+"TAP TO RESUME" = "点击继续计时";
+"OUT OF TIME" = "超时";
+
+"%@, %lld times" = "%@, %lld 次";
+
+"Main Time: %@" = "基本时间: %@";
+"Period Time: %@" = "读秒时间: %@";
+"Period Number: %lld times" = "读秒次数: %lld 次";
+
+"%lld hours" = "%lld 小时";
+"%lld minutes" = "%lld 分钟";
+"%lld seconds" = "%lld 秒";
+"%lld times" = "%lld 次";
+
+"Settings" = "设置";
+"Done" = "完成";
+
+"Time Control was modified, do you want to reset timer?" = "计时规则发生改变，是否重新计时？";
+"Yes" = "是";
+"Cancel" = "取消";
+
+"Delete" = "删除";
+"Edit" = "编辑";
+"Select" = "选择";
+
+"Byoyomis" = "计时规则";
+"Byoyomi" = "计时规则";
+
+"Input byoyomi's name" = "输入计时规则名称";
+"Main Time" = "基本时间";
+"Period Time" = "读秒时间";
+"Period Number: " = "读秒次数: ";
+"Input number" = "输入数字";
+
+"%lld times" = "%lld 次";
+
+"Enable Click Sound" = "开启点击音效";
+
+"Airplane Mode Reminder" = "开启飞行模式提醒";
+"Always Show Turn Number" = "显示手数";
+
+"Turn %lld" = "第 %lld 手";
+
+"%lld Hours" = "%lld 小时";
+"%lld Minutes" = "%lld 分钟";
+"%lld Seconds" = "%lld 秒";
+

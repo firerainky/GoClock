@@ -1,16 +1,3 @@
-PODS:
-  - SwiftySound (1.2.0)
-
-DEPENDENCIES:
-  - SwiftySound
-
-SPEC REPOS:
-  trunk:
-    - SwiftySound
-
-SPEC CHECKSUMS:
-  SwiftySound: 9eb28bb14edb601b40027e44319e0ef8383f88bf
-
-PODFILE CHECKSUM: 261a9ad9c1476b63ac9671ebdca00e120f4f34a8
+PODFILE CHECKSUM: 72eb4688a4030a7f3a49b8ffeafe23f90c304160
 
 COCOAPODS: 1.8.4

@@ -20,7 +20,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView().environmentObject(TimerModel())
+        let contentView = ClockBoard().environmentObject(Store())
+//        let contentView = Settings().environmentObject(Store())
+//        let contentView = ContentsView()
+//        let contentView = ByoyomiSetting(byoyomi: AppState.Byoyomi(name: "adsf", mainTime: 123, periodTime: 123, periodNumber: 3))
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

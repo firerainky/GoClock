@@ -3,24 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3826B3332505BEB10095722F /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3826B3322505BEB10095722F /* TimerModel.swift */; };
-		3829211A250A117600B1878D /* seven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292110250A117600B1878D /* seven.mp3 */; };
-		3829211B250A117600B1878D /* eight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292111250A117600B1878D /* eight.mp3 */; };
-		3829211C250A117600B1878D /* one.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292112250A117600B1878D /* one.mp3 */; };
-		3829211D250A117600B1878D /* five.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292113250A117600B1878D /* five.mp3 */; };
-		3829211E250A117600B1878D /* two.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292114250A117600B1878D /* two.mp3 */; };
-		3829211F250A117600B1878D /* six.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292115250A117600B1878D /* six.mp3 */; };
-		38292120250A117600B1878D /* four.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292116250A117600B1878D /* four.mp3 */; };
-		38292121250A117600B1878D /* nine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292117250A117600B1878D /* nine.mp3 */; };
-		38292122250A117600B1878D /* ten.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292118250A117600B1878D /* ten.mp3 */; };
-		38292123250A117600B1878D /* three.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38292119250A117600B1878D /* three.mp3 */; };
 		38292125250B7EFD00B1878D /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38292124250B7EFD00B1878D /* TimePickerView.swift */; };
 		38292127250BB48100B1878D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38292126250BB48100B1878D /* Helper.swift */; };
 		38292129250C591000B1878D /* DurationPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38292128250C591000B1878D /* DurationPicker.swift */; };
+		38313DC525209FD50086FD79 /* ViewControllerHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38313DC425209FD50086FD79 /* ViewControllerHolder.swift */; };
+		38313DC82520A1C40086FD79 /* ByoyomiSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38313DC72520A1C40086FD79 /* ByoyomiSetting.swift */; };
+		38313DCF2521C3730086FD79 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38313DCE2521C3730086FD79 /* NavigationBarModifier.swift */; };
+		3875A82D255E12CF00BD232C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3875A82F255E12CF00BD232C /* Localizable.strings */; };
+		38860993251E2F4700782B24 /* ClockSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38860992251E2F4700782B24 /* ClockSide.swift */; };
+		3891EA59251CAFA80022C92D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891EA58251CAFA80022C92D /* Store.swift */; };
+		3891EA5E251CC6940022C92D /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891EA5D251CC6940022C92D /* AppAction.swift */; };
+		3891EA63251D662B0022C92D /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891EA62251D662B0022C92D /* AppState.swift */; };
+		3891EA68251D80D30022C92D /* UserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891EA67251D80D30022C92D /* UserDefaultsStorage.swift */; };
+		3891EA6B251D881F0022C92D /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891EA6A251D881F0022C92D /* FileStorage.swift */; };
+		3891EA6F251DC9570022C92D /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891EA6E251DC9570022C92D /* FileHelper.swift */; };
+		3891EA73251DC99A0022C92D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891EA72251DC99A0022C92D /* Helpers.swift */; };
+		3891EA79251DF2FC0022C92D /* AppCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891EA78251DF2FC0022C92D /* AppCommand.swift */; };
+		3891EA7C251E0BA20022C92D /* ClockBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891EA7B251E0BA20022C92D /* ClockBoard.swift */; };
+		389EE36F251EC4190026276C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389EE36E251EC4190026276C /* Settings.swift */; };
+		38AABC322552341400FF36A9 /* NextSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AABC312552341400FF36A9 /* NextSetting.swift */; };
+		38AABC352552FBAD00FF36A9 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AABC342552FBAD00FF36A9 /* UIConstants.swift */; };
+		38AABC5A2554F03400FF36A9 /* ByoyomiListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AABC592554F03400FF36A9 /* ByoyomiListView.swift */; };
+		38C53C2325592C6A00AA041D /* SwipeCell in Frameworks */ = {isa = PBXBuildFile; productRef = 38C53C2225592C6A00AA041D /* SwipeCell */; };
 		38C772CA24E0ACCA0054AE6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772C924E0ACCA0054AE6A /* AppDelegate.swift */; };
 		38C772CC24E0ACCA0054AE6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772CB24E0ACCA0054AE6A /* SceneDelegate.swift */; };
 		38C772CE24E0ACCA0054AE6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C772CD24E0ACCA0054AE6A /* ContentView.swift */; };
@@ -28,30 +37,36 @@
 		38C772D324E0ACCE0054AE6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C772D224E0ACCE0054AE6A /* Preview Assets.xcassets */; };
 		38C772D624E0ACCE0054AE6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C772D424E0ACCE0054AE6A /* LaunchScreen.storyboard */; };
 		38D9896E25078EB6004736F4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9896D25078EB6004736F4 /* SettingsView.swift */; };
-		38D989BB2509148D004736F4 /* countdown-remain-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B52509148D004736F4 /* countdown-remain-2.mp3 */; };
-		38D989BC2509148D004736F4 /* countdown-remain-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B62509148D004736F4 /* countdown-remain-3.mp3 */; };
-		38D989BD2509148D004736F4 /* countdown-remain-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B72509148D004736F4 /* countdown-remain-1.mp3 */; };
-		38D989BE2509148D004736F4 /* countdown-remain-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B82509148D004736F4 /* countdown-remain-4.mp3 */; };
-		38D989BF2509148D004736F4 /* countdown-remain-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989B92509148D004736F4 /* countdown-remain-5.mp3 */; };
-		38D989C02509148D004736F4 /* start-countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 38D989BA2509148D004736F4 /* start-countdown.mp3 */; };
 		D22A62548B630D2F7589B30F /* Pods_GoClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76823443A469D43BBB71BA8A /* Pods_GoClock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3826B3322505BEB10095722F /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
-		38292110250A117600B1878D /* seven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seven.mp3; sourceTree = "<group>"; };
-		38292111250A117600B1878D /* eight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eight.mp3; sourceTree = "<group>"; };
-		38292112250A117600B1878D /* one.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = one.mp3; sourceTree = "<group>"; };
-		38292113250A117600B1878D /* five.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = five.mp3; sourceTree = "<group>"; };
-		38292114250A117600B1878D /* two.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = two.mp3; sourceTree = "<group>"; };
-		38292115250A117600B1878D /* six.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = six.mp3; sourceTree = "<group>"; };
-		38292116250A117600B1878D /* four.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = four.mp3; sourceTree = "<group>"; };
-		38292117250A117600B1878D /* nine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nine.mp3; sourceTree = "<group>"; };
-		38292118250A117600B1878D /* ten.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ten.mp3; sourceTree = "<group>"; };
-		38292119250A117600B1878D /* three.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = three.mp3; sourceTree = "<group>"; };
 		38292124250B7EFD00B1878D /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
 		38292126250BB48100B1878D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		38292128250C591000B1878D /* DurationPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationPicker.swift; sourceTree = "<group>"; };
+		38313DC425209FD50086FD79 /* ViewControllerHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHolder.swift; sourceTree = "<group>"; };
+		38313DC72520A1C40086FD79 /* ByoyomiSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByoyomiSetting.swift; sourceTree = "<group>"; };
+		38313DCE2521C3730086FD79 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		3875A82E255E12CF00BD232C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3875A831255E133500BD232C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3875A833255E134900BD232C /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3875A834255E135E00BD232C /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		3875A835255E136F00BD232C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		38860992251E2F4700782B24 /* ClockSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockSide.swift; sourceTree = "<group>"; };
+		3891EA58251CAFA80022C92D /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		3891EA5D251CC6940022C92D /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		3891EA62251D662B0022C92D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		3891EA67251D80D30022C92D /* UserDefaultsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStorage.swift; sourceTree = "<group>"; };
+		3891EA6A251D881F0022C92D /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		3891EA6E251DC9570022C92D /* FileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		3891EA72251DC99A0022C92D /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		3891EA78251DF2FC0022C92D /* AppCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCommand.swift; sourceTree = "<group>"; };
+		3891EA7B251E0BA20022C92D /* ClockBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockBoard.swift; sourceTree = "<group>"; };
+		389EE36E251EC4190026276C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		38AABC312552341400FF36A9 /* NextSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextSetting.swift; sourceTree = "<group>"; };
+		38AABC342552FBAD00FF36A9 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		38AABC592554F03400FF36A9 /* ByoyomiListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByoyomiListView.swift; sourceTree = "<group>"; };
 		38C772C624E0ACCA0054AE6A /* GoClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C772C924E0ACCA0054AE6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38C772CB24E0ACCA0054AE6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,12 +76,6 @@
 		38C772D524E0ACCE0054AE6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38C772D724E0ACCE0054AE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38D9896D25078EB6004736F4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		38D989B52509148D004736F4 /* countdown-remain-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-2.mp3"; sourceTree = "<group>"; };
-		38D989B62509148D004736F4 /* countdown-remain-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-3.mp3"; sourceTree = "<group>"; };
-		38D989B72509148D004736F4 /* countdown-remain-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-1.mp3"; sourceTree = "<group>"; };
-		38D989B82509148D004736F4 /* countdown-remain-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-4.mp3"; sourceTree = "<group>"; };
-		38D989B92509148D004736F4 /* countdown-remain-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "countdown-remain-5.mp3"; sourceTree = "<group>"; };
-		38D989BA2509148D004736F4 /* start-countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "start-countdown.mp3"; sourceTree = "<group>"; };
 		76823443A469D43BBB71BA8A /* Pods_GoClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		920F4592A126CD40B97AFCB0 /* Pods-GoClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoClock.release.xcconfig"; path = "Target Support Files/Pods-GoClock/Pods-GoClock.release.xcconfig"; sourceTree = "<group>"; };
 		FD4B2C8A072F4F5928E9B8CB /* Pods-GoClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoClock.debug.xcconfig"; path = "Target Support Files/Pods-GoClock/Pods-GoClock.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,12 +87,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				D22A62548B630D2F7589B30F /* Pods_GoClock.framework in Frameworks */,
+				38C53C2325592C6A00AA041D /* SwipeCell in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3891EA57251CAEF90022C92D /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				3891EA58251CAFA80022C92D /* Store.swift */,
+				3891EA5D251CC6940022C92D /* AppAction.swift */,
+				3891EA62251D662B0022C92D /* AppState.swift */,
+				3891EA67251D80D30022C92D /* UserDefaultsStorage.swift */,
+				3891EA6A251D881F0022C92D /* FileStorage.swift */,
+				3891EA78251DF2FC0022C92D /* AppCommand.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		3891EA5C251CBF600022C92D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3891EA7B251E0BA20022C92D /* ClockBoard.swift */,
+				38860992251E2F4700782B24 /* ClockSide.swift */,
+				389EE36E251EC4190026276C /* Settings.swift */,
+				38313DC72520A1C40086FD79 /* ByoyomiSetting.swift */,
+				38AABC312552341400FF36A9 /* NextSetting.swift */,
+				38AABC592554F03400FF36A9 /* ByoyomiListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3891EA6D251DC9420022C92D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3891EA6E251DC9570022C92D /* FileHelper.swift */,
+				3891EA72251DC99A0022C92D /* Helpers.swift */,
+				38313DC425209FD50086FD79 /* ViewControllerHolder.swift */,
+				38313DCE2521C3730086FD79 /* NavigationBarModifier.swift */,
+				38AABC342552FBAD00FF36A9 /* UIConstants.swift */,
+				3875A82F255E12CF00BD232C /* Localizable.strings */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		38C772BD24E0ACCA0054AE6A = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +154,9 @@
 		38C772C824E0ACCA0054AE6A /* GoClock */ = {
 			isa = PBXGroup;
 			children = (
+				3891EA6D251DC9420022C92D /* Utils */,
+				3891EA5C251CBF600022C92D /* Views */,
+				3891EA57251CAEF90022C92D /* Store */,
 				38D989B42509148D004736F4 /* Audios */,
 				38292126250BB48100B1878D /* Helper.swift */,
 				38C772C924E0ACCA0054AE6A /* AppDelegate.swift */,
@@ -133,22 +185,6 @@
 		38D989B42509148D004736F4 /* Audios */ = {
 			isa = PBXGroup;
 			children = (
-				38292111250A117600B1878D /* eight.mp3 */,
-				38292113250A117600B1878D /* five.mp3 */,
-				38292116250A117600B1878D /* four.mp3 */,
-				38292117250A117600B1878D /* nine.mp3 */,
-				38292112250A117600B1878D /* one.mp3 */,
-				38292110250A117600B1878D /* seven.mp3 */,
-				38292115250A117600B1878D /* six.mp3 */,
-				38292118250A117600B1878D /* ten.mp3 */,
-				38292119250A117600B1878D /* three.mp3 */,
-				38292114250A117600B1878D /* two.mp3 */,
-				38D989B52509148D004736F4 /* countdown-remain-2.mp3 */,
-				38D989B62509148D004736F4 /* countdown-remain-3.mp3 */,
-				38D989B72509148D004736F4 /* countdown-remain-1.mp3 */,
-				38D989B82509148D004736F4 /* countdown-remain-4.mp3 */,
-				38D989B92509148D004736F4 /* countdown-remain-5.mp3 */,
-				38D989BA2509148D004736F4 /* start-countdown.mp3 */,
 			);
 			path = Audios;
 			sourceTree = "<group>";
@@ -181,13 +217,15 @@
 				38C772C224E0ACCA0054AE6A /* Sources */,
 				38C772C324E0ACCA0054AE6A /* Frameworks */,
 				38C772C424E0ACCA0054AE6A /* Resources */,
-				640EAEF257D9EED4E38D6F0F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = GoClock;
+			packageProductDependencies = (
+				38C53C2225592C6A00AA041D /* SwipeCell */,
+			);
 			productName = GoClock;
 			productReference = 38C772C624E0ACCA0054AE6A /* GoClock.app */;
 			productType = "com.apple.product-type.application";
@@ -199,7 +237,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Zheng Kanyan";
 				TargetAttributes = {
 					38C772C524E0ACCA0054AE6A = {
@@ -214,8 +252,15 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
+				"zh-HK",
+				ja,
 			);
 			mainGroup = 38C772BD24E0ACCA0054AE6A;
+			packageReferences = (
+				38C53C2125592C6A00AA041D /* XCRemoteSwiftPackageReference "SwipeCell" */,
+			);
 			productRefGroup = 38C772C724E0ACCA0054AE6A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -230,48 +275,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3829211D250A117600B1878D /* five.mp3 in Resources */,
-				38D989BF2509148D004736F4 /* countdown-remain-5.mp3 in Resources */,
-				38292120250A117600B1878D /* four.mp3 in Resources */,
-				38292123250A117600B1878D /* three.mp3 in Resources */,
-				38292121250A117600B1878D /* nine.mp3 in Resources */,
-				3829211B250A117600B1878D /* eight.mp3 in Resources */,
-				38D989BD2509148D004736F4 /* countdown-remain-1.mp3 in Resources */,
-				3829211C250A117600B1878D /* one.mp3 in Resources */,
 				38C772D624E0ACCE0054AE6A /* LaunchScreen.storyboard in Resources */,
-				3829211F250A117600B1878D /* six.mp3 in Resources */,
-				38D989BB2509148D004736F4 /* countdown-remain-2.mp3 in Resources */,
-				3829211A250A117600B1878D /* seven.mp3 in Resources */,
-				38D989C02509148D004736F4 /* start-countdown.mp3 in Resources */,
-				38292122250A117600B1878D /* ten.mp3 in Resources */,
+				3875A82D255E12CF00BD232C /* Localizable.strings in Resources */,
 				38C772D324E0ACCE0054AE6A /* Preview Assets.xcassets in Resources */,
 				38C772D024E0ACCE0054AE6A /* Assets.xcassets in Resources */,
-				38D989BE2509148D004736F4 /* countdown-remain-4.mp3 in Resources */,
-				38D989BC2509148D004736F4 /* countdown-remain-3.mp3 in Resources */,
-				3829211E250A117600B1878D /* two.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		640EAEF257D9EED4E38D6F0F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoClock/Pods-GoClock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoClock/Pods-GoClock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoClock/Pods-GoClock-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B4D52F170F51870669E4AC82 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,20 +314,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38313DCF2521C3730086FD79 /* NavigationBarModifier.swift in Sources */,
 				38D9896E25078EB6004736F4 /* SettingsView.swift in Sources */,
 				38292127250BB48100B1878D /* Helper.swift in Sources */,
 				38292125250B7EFD00B1878D /* TimePickerView.swift in Sources */,
+				3891EA59251CAFA80022C92D /* Store.swift in Sources */,
+				3891EA68251D80D30022C92D /* UserDefaultsStorage.swift in Sources */,
+				38AABC322552341400FF36A9 /* NextSetting.swift in Sources */,
+				3891EA6F251DC9570022C92D /* FileHelper.swift in Sources */,
+				38313DC525209FD50086FD79 /* ViewControllerHolder.swift in Sources */,
 				38292129250C591000B1878D /* DurationPicker.swift in Sources */,
+				38860993251E2F4700782B24 /* ClockSide.swift in Sources */,
+				3891EA6B251D881F0022C92D /* FileStorage.swift in Sources */,
 				38C772CA24E0ACCA0054AE6A /* AppDelegate.swift in Sources */,
+				3891EA63251D662B0022C92D /* AppState.swift in Sources */,
 				3826B3332505BEB10095722F /* TimerModel.swift in Sources */,
+				3891EA7C251E0BA20022C92D /* ClockBoard.swift in Sources */,
+				3891EA79251DF2FC0022C92D /* AppCommand.swift in Sources */,
 				38C772CC24E0ACCA0054AE6A /* SceneDelegate.swift in Sources */,
+				3891EA5E251CC6940022C92D /* AppAction.swift in Sources */,
+				38AABC5A2554F03400FF36A9 /* ByoyomiListView.swift in Sources */,
+				3891EA73251DC99A0022C92D /* Helpers.swift in Sources */,
 				38C772CE24E0ACCA0054AE6A /* ContentView.swift in Sources */,
+				38313DC82520A1C40086FD79 /* ByoyomiSetting.swift in Sources */,
+				389EE36F251EC4190026276C /* Settings.swift in Sources */,
+				38AABC352552FBAD00FF36A9 /* UIConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3875A82F255E12CF00BD232C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3875A82E255E12CF00BD232C /* en */,
+				3875A831255E133500BD232C /* zh-Hans */,
+				3875A833255E134900BD232C /* zh-Hant */,
+				3875A834255E135E00BD232C /* zh-HK */,
+				3875A835255E136F00BD232C /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		38C772D424E0ACCE0054AE6A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -330,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -352,6 +395,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -376,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -390,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -412,6 +457,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -430,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -457,7 +503,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zky.GoClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -478,7 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zky.GoClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -504,6 +550,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		38C53C2125592C6A00AA041D /* XCRemoteSwiftPackageReference "SwipeCell" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fatbobman/SwipeCell";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		38C53C2225592C6A00AA041D /* SwipeCell */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 38C53C2125592C6A00AA041D /* XCRemoteSwiftPackageReference "SwipeCell" */;
+			productName = SwipeCell;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 38C772BE24E0ACCA0054AE6A /* Project object */;
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 import AVFoundation
-import SwiftySound
+//import SwiftySound
 
 /* 这个棋钟的状态：
  暂停态（点击后继续计时且不切换计时）；
@@ -98,29 +98,29 @@ class TimerModel: ObservableObject {
                 }
                 hostTimer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: {_ in
                     weakSelf?.hostTime -= 0.1
-                    if let leftTime = weakSelf?.hostTime, leftTime <= 0 {
-                        weakSelf?.countToZero(hostSide: true)
-                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 10.4) <= 0.01 {
-                        Sound.play(file: "ten.mp3")
-                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 9.4) <= 0.01 {
-                       Sound.play(file: "nine.mp3")
-                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 8.4) <= 0.01 {
-                       Sound.play(file: "eight.mp3")
-                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 7.4) <= 0.01 {
-                       Sound.play(file: "seven.mp3")
-                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 6.4) <= 0.01 {
-                      Sound.play(file: "six.mp3")
-                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 5.4) <= 0.01 {
-                      Sound.play(file: "five.mp3")
-                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 4.4) <= 0.01 {
-                      Sound.play(file: "four.mp3")
-                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 3.4) <= 0.01 {
-                      Sound.play(file: "three.mp3")
-                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 2.4) <= 0.01 {
-                      Sound.play(file: "two.mp3")
-                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 1.4) <= 0.01 {
-                      Sound.play(file: "one.mp3")
-                    }
+//                    if let leftTime = weakSelf?.hostTime, leftTime <= 0 {
+//                        weakSelf?.countToZero(hostSide: true)
+//                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 10.4) <= 0.01 {
+//                        Sound.play(file: "ten.mp3")
+//                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 9.4) <= 0.01 {
+//                       Sound.play(file: "nine.mp3")
+//                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 8.4) <= 0.01 {
+//                       Sound.play(file: "eight.mp3")
+//                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 7.4) <= 0.01 {
+//                       Sound.play(file: "seven.mp3")
+//                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 6.4) <= 0.01 {
+//                      Sound.play(file: "six.mp3")
+//                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 5.4) <= 0.01 {
+//                      Sound.play(file: "five.mp3")
+//                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 4.4) <= 0.01 {
+//                      Sound.play(file: "four.mp3")
+//                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 3.4) <= 0.01 {
+//                      Sound.play(file: "three.mp3")
+//                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 2.4) <= 0.01 {
+//                      Sound.play(file: "two.mp3")
+//                    } else if let leftTime = weakSelf?.hostTime, abs(leftTime - 1.4) <= 0.01 {
+//                      Sound.play(file: "one.mp3")
+//                    }
                 })
                 guestTimer?.invalidate()
             } else {
@@ -130,29 +130,29 @@ class TimerModel: ObservableObject {
                 }
                 guestTimer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: {_ in
                     weakSelf?.guestTime -= 0.1
-                    if let leftTime = weakSelf?.guestTime, leftTime <= 0 {
-                        weakSelf?.countToZero(hostSide: false)
-                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 10.4) <= 0.01 {
-                        Sound.play(file: "ten.mp3")
-                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 9.4) <= 0.01 {
-                        Sound.play(file: "nine.mp3")
-                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 8.4) <= 0.01 {
-                        Sound.play(file: "eight.mp3")
-                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 7.4) <= 0.01 {
-                        Sound.play(file: "seven.mp3")
-                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 6.4) <= 0.01 {
-                       Sound.play(file: "six.mp3")
-                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 5.4) <= 0.01 {
-                       Sound.play(file: "five.mp3")
-                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 4.4) <= 0.01 {
-                       Sound.play(file: "four.mp3")
-                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 3.4) <= 0.01 {
-                       Sound.play(file: "three.mp3")
-                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 2.4) <= 0.01 {
-                       Sound.play(file: "two.mp3")
-                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 1.4) <= 0.01 {
-                       Sound.play(file: "one.mp3")
-                    }
+//                    if let leftTime = weakSelf?.guestTime, leftTime <= 0 {
+//                        weakSelf?.countToZero(hostSide: false)
+//                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 10.4) <= 0.01 {
+//                        Sound.play(file: "ten.mp3")
+//                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 9.4) <= 0.01 {
+//                        Sound.play(file: "nine.mp3")
+//                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 8.4) <= 0.01 {
+//                        Sound.play(file: "eight.mp3")
+//                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 7.4) <= 0.01 {
+//                        Sound.play(file: "seven.mp3")
+//                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 6.4) <= 0.01 {
+//                       Sound.play(file: "six.mp3")
+//                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 5.4) <= 0.01 {
+//                       Sound.play(file: "five.mp3")
+//                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 4.4) <= 0.01 {
+//                       Sound.play(file: "four.mp3")
+//                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 3.4) <= 0.01 {
+//                       Sound.play(file: "three.mp3")
+//                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 2.4) <= 0.01 {
+//                       Sound.play(file: "two.mp3")
+//                    } else if let leftTime = weakSelf?.guestTime, abs(leftTime - 1.4) <= 0.01 {
+//                       Sound.play(file: "one.mp3")
+//                    }
                 })
                 hostTimer?.invalidate()
             }
@@ -200,20 +200,20 @@ class TimerModel: ObservableObject {
                 if hostPhase!.1 == timerRule.countDownNum - 1 {
 //                    Sound.play(file: "start-countdown.mp3")
                 }
-                switch hostPhase!.1 {
-                case 1:
-                    Sound.play(file: "countdown-remain-1.mp3")
-                case 2:
-                    Sound.play(file: "countdown-remain-2.mp3")
-                case 3:
-                    Sound.play(file: "countdown-remain-3.mp3")
-                case 4:
-                    Sound.play(file: "countdown-remain-4.mp3")
-                case 5:
-                    Sound.play(file: "countdown-remain-5.mp3")
-                default:
-                    print("something wrong")
-                }
+//                switch hostPhase!.1 {
+//                case 1:
+//                    Sound.play(file: "countdown-remain-1.mp3")
+//                case 2:
+//                    Sound.play(file: "countdown-remain-2.mp3")
+//                case 3:
+//                    Sound.play(file: "countdown-remain-3.mp3")
+//                case 4:
+//                    Sound.play(file: "countdown-remain-4.mp3")
+//                case 5:
+//                    Sound.play(file: "countdown-remain-5.mp3")
+//                default:
+//                    print("something wrong")
+//                }
                 hostTime = timerRule.countDownTime
             }
         } else {
@@ -224,20 +224,20 @@ class TimerModel: ObservableObject {
                 if guestPhase!.1 == timerRule.countDownNum - 1 {
 //                    Sound.play(file: "start-countdown.mp3")
                 }
-                switch guestPhase!.1 {
-                case 1:
-                    Sound.play(file: "countdown-remain-1.mp3")
-                case 2:
-                    Sound.play(file: "countdown-remain-2.mp3")
-                case 3:
-                    Sound.play(file: "countdown-remain-3.mp3")
-                case 4:
-                    Sound.play(file: "countdown-remain-4.mp3")
-                case 5:
-                    Sound.play(file: "countdown-remain-5.mp3")
-                default:
-                    print("something wrong")
-                }
+//                switch guestPhase!.1 {
+//                case 1:
+//                    Sound.play(file: "countdown-remain-1.mp3")
+//                case 2:
+//                    Sound.play(file: "countdown-remain-2.mp3")
+//                case 3:
+//                    Sound.play(file: "countdown-remain-3.mp3")
+//                case 4:
+//                    Sound.play(file: "countdown-remain-4.mp3")
+//                case 5:
+//                    Sound.play(file: "countdown-remain-5.mp3")
+//                default:
+//                    print("something wrong")
+//                }
                 guestTime = timerRule.countDownTime
             }
         }

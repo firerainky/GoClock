@@ -6,6 +6,6 @@ target 'GoClock' do
   use_frameworks!
 
   # Pods for GoClock
-  pod 'SwiftySound'
+  #pod 'SwiftySound'
 
 end

@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Introspect",
+        "repositoryURL": "https://github.com/timbersoftware/SwiftUI-Introspect.git",
+        "state": {
+          "branch": null,
+          "revision": "f1ec9da347a7fbe53c520d35434f6c2295650bd5",
+          "version": "0.1.1"
+        }
+      },
+      {
+        "package": "SwipeCell",
+        "repositoryURL": "https://github.com/fatbobman/SwipeCell",
+        "state": {
+          "branch": null,
+          "revision": "fd79dde608fa0c4f798f9a83f3bdd6127d3fb83e",
+          "version": "0.9.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

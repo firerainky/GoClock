@@ -9,10 +9,7 @@
 import SwiftUI
 import AVFoundation
 
-let screenWidth = UIScreen.main.bounds.size.width
-let screenHeight = UIScreen.main.bounds.size.height
-let moreScreenHeight = screenHeight * 3 / 4
-let lessScreenHeight = screenHeight * 1 / 4
+
 //let freeTime: TimeInterval = 15
 //let totalCountDownTime: TimeInterval = 15
 
